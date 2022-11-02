@@ -1,253 +1,239 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 html {
-  font-size: 59%;
+  font-size:59%;
 }
-
 nav {
-  display: flex;
-  position: sticky;
-  top: 0px;
-  padding: 0;
-  padding-left: 0cm;
-  min-height: 10vh;
- background-color: #084814;
+  display:flex;
+  position:sticky;
+  top:0px;
+  padding:0;
+  padding-left:0cm;
+  min-height:10vh;
+  background-color:#084814;
 }
-
 nav ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
+  display:flex;
+  align-items:center;
+  list-style-type:none;
 }
 nav li {
-  font-size: 1.7rem;
-  padding: 0 2rem 0 2rem;
+  font-size:1.7rem;
+  padding:0 2rem 0 2rem;
 }
 nav a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-
+  color:rgb(255,255,255);
+  text-decoration:none;
 }
 nav img {
-  width: 10vw;
-  height: 10vh;
+  width:10vw;
+  height:10vh;
   margin:0;
 }
 li {
-  text-align: left;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  text-align:left;
+  border:none;
+  color:white;
+  padding:15px 32px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:16px;
 }
 li a:hover:not(.active) {
-  color: rgb(0, 0, 0);
-
+  color:rgb(0,0,0);
 }
 body {
-  background-color: rgb(9, 52, 19);
-;
- font-family: 'Pattaya';font-size: 22px;
+  background-color:rgb(9,52,19);
+  font-family:"Pattaya";
+  font-size:22px;
 }
-
-.img1{
-  width: 800px;
+.img1 {
+  width:800px;
   height:auto;
   float:right;
-  margin: 75px;
+  margin:75px;
 }
-h1{
-  font-size: 100px;
-  color: white;
-  min-height: 100px;
+h1 {
+  font-size:100px;
+  color:white;
+  min-height:100px;
 }
-.flexie{
-  position: absolute;
-  display: flex;
-  opacity: 100%;
-  
+.flexie {
+  position:absolute;
+  display:flex;
+  opacity:100%;
 }
-div.flexie{
-  margin-top: 60px;
-  margin-left: 68px;
+div.flexie {
+  margin-top:60px;
+  margin-left:68px;
 }
-
-.b1{
-height:900px;
-width: 1499px;
+.b1 {
+  height:900px;
+  width:1499px;
 }
-
-.img2{
- display: flex;
- float: right;
- padding: 100px;
-
+.img2 {
+  display:flex;
+  float:right;
+  padding:100px;
 }
-.b3{
- flex-direction: column;
+.b3 {
+  flex-direction:column;
 }
-.logo2{
-  
-  border-radius: 25px;
-  background:  rgb(9, 52, 19);
-  padding: 20px;
-  width: 70px;
-  min-height: 5vh;
+.logo2 {
+  border-radius:25px;
+  background:rgb(9,52,19);
+  padding:20px;
+  width:70px;
+  min-height:5vh;
+}
+.navleft {
+  display:flex;
+  margin-right:40rem;
+}
+.h2 {
+  color:rgb(223,218,218);
+  margin-top:27rem;
+}
+footer {
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:#084814;
+  color:white;
+  text-align:center;
+}
+.opleiding {
+  display:flex;
+  float:right;
+  padding:35px;
+  width:35vw;
+  height:50vh;
+}
+.opp {
+  margin-top:20rem;
+  color:white;
+  background-color:#371e1e;
+  border-radius: 10px;
+  border: 4px solid black;
  
 }
-.navleft{
-  display: flex;
-  margin-right: 40rem;
-}
-.h2{
-  color: rgb(223, 218, 218);
-  margin-top: 27rem;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #084814;
-  color: white;
-  text-align: center;
-}
-
-.opleiding{
-  display: flex;
- float: right;
- padding: 35px;
- width: 35vw;
- height:50vh
-}
-
-.opp{
-  margin-top: 20rem;
-  color: white;
-}
-
-.opp3{
-  margin-top: 20rem;
-  color: white;
-  
-}
-.overonsimg{
-  display: flex;
-  float: right;
-  padding: 35px;
-  width: 35vw;
-  height:75vh;
-}
-.overons{
+.opp3 {
+  margin-top:20rem;
   color:white;
-  margin-top: 25rem;
 }
-.exameplan{
+.overonsimg {
+  display:flex;
+  float:right;
+  padding:35px;
+  width:35vw;
+  height:75vh;
+}
+.overonsimg2 {
+  display:flex;
+  float:right;
+  padding:35px;
+  width:35vw;
+  height:75vh;
+}
+.overons {
   color:white;
-  margin-top: 25rem;
+  margin-top:25rem;
 }
-.exame{
-  display: flex;
-  float: right;
-  padding: 35px;
-  width: 35vw;
-  height:75vh;
-}
-.software{
-  display: flex;
-  float: right;
-  padding: 35px;
-  width: 35vw;
-  height:75vh;
-}
-.softwarer{
+.exameplan {
   color:white;
-  margin-top: 25rem;
+  margin-top:25rem;
 }
-.eduarte{
-  display: flex;
-  float: right;
-  padding: 35px;
-  width: 35vw;
+.exame {
+  display:flex;
+  float:right;
+  padding:35px;
+  width:35vw;
   height:75vh;
 }
-.eduarter{
+.software {
+  display:flex;
+  float:right;
+  padding:35px;
+  width:35vw;
+}
+.softwarer {
   color:white;
-  margin-top: 25rem;
+  margin-top:25rem;
 }
-.canvas{
-  display: flex;
-  float: right;
-  padding: 35px;
-  width: 35vw;
+.eduarte {
+  display:flex;
+  float:right;
+  padding:35px;
+  width:35vw;
   height:75vh;
 }
-.canvass{
+.eduarter {
   color:white;
-  margin-top: 25rem;
+  margin-top:25rem;
 }
-.locatie{
-  display: flex;
-  float: right;
-  padding: 35px;
-  width: 35vw;
+.canvas {
+  display:flex;
+  float:right;
+  padding:35px;
+  width:30vw;
+}
+.canvass {
+  color:white;
+  margin-top:25rem;
+}
+.locatie {
+  display:flex;
+  float:right;
+  padding:35px;
   height:75vh;
 }
-.locatiee{
-  color: white;
-  margin-top: 25rem;
+.locatiee {
+  color:white;
+  margin-top:25rem;
 }
 .dropdown:hover .dropdown-content {
-
   display:block;
-
-
-
 }
-
-.dropdown{
-
-  position: static;
-
- 
-
+.dropdown {
+  position:static;
 }
-
-.dropdown-content a{
-
- 
-
-  color: white;
-
-
-
-  display: block;
-
-  align-items: right;
-
+.dropdown-content a {
+  color:white;
+  display:block;
+  align-items:right;
 }
-
-.dropdown-content{
-
-  display: none;
-
-  position: absolute;
-
-  justify-content: center;
-
-  min-width: 7vw;
-
+.dropdown-content {
+  display:none;
+  position:absolute;
+  justify-content:center;
+  min-width:7vw;
 }
-
-h1#asd{
-  position: absolute;
-  margin-left: 250px;
-  font-size: 80px;
+h1#asd {
+  position:absolute;
+  margin-left:250px;
+  font-size:80px;
+}
+.begeleiding {
+  color:white;
+  margin-top:25rem;
+}
+.table{
+  margin-top: 22rem;
+  color:white
+}
+.opleidingg{
+  margin-top: 1%;
+}
+table, th, td {
+  border:4px solid black;
+}
+.button2 {
+  margin-left: 10rem;
+  border:4px solid black;
+  margin-top: 1rem;
 }
