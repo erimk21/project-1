@@ -109,6 +109,7 @@ footer {
 }
 .opleiding {
   display:flex;
+  position: sticky;
   float:right;
   padding:35px;
   width:35vw;
